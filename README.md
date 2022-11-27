@@ -7,5 +7,10 @@ The dataset of brain MRIs from patients with glioma, examples of MRI images and 
 ![image](./image&mask.png)
 
 ## How to Start 
-0. Upload Dataset on your Google Drive 
-1. Open [notebook](https://github.com/xy2119/Brain_MRI_Image_Segmentation/blob/main/MRI_ImageSeg_U_Net_VGG16.ipynb) in Google Colab
+0. Upload `Dataset` on your Google Drive 
+*1. Create an account on [Weights & Biases](https://wandb.ai/site) platform (I track my training using `wandb`. `wandb` is a tool for tracking and visualising machine learning experiments in real time. If you have an account on Weights & Biases, all you need to do to get started with this notebook in is copy and paste the API key from your profile) 
+2. Open [notebook](https://github.com/xy2119/Brain_MRI_Image_Segmentation/blob/main/MRI_ImageSeg_U_Net_VGG16.ipynb) in Google Colab
+
+## Contributing
+If you have any questions or advice towards this repository, feel free to contact me at xy2119@ic.ac.uk.
+Any kind of enhancement or contribution is welcomed!
