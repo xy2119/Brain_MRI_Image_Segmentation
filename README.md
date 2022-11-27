@@ -11,6 +11,9 @@ The dataset of brain MRIs from patients with glioma, examples of MRI images and 
 1. Create an account on [Weights & Biases](https://wandb.ai/site) platform (The training is tracked by `wandb`, that is a tool for tracking and visualising machine learning experiments in real time. If you have an account on Weights & Biases, all you need to do to get started with this notebook is copy and paste the API key from your profile) 
 2. Open [notebook](https://github.com/xy2119/Brain_MRI_Image_Segmentation/blob/main/MRI_ImageSeg_U_Net_VGG16.ipynb) in Google Colab
 
+## Future Work
+Exploring more advanced segmentation architectures, such as SLSDeep and SegCaps.
+
 ## Contributing
 If you have any questions or advice towards this repository, feel free to contact me at xy2119@ic.ac.uk.
 
