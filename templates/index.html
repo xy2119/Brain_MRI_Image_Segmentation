@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Brain Tumor Segmentation U-Net</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/form_upload.css" rel="stylesheet">
+    <link href="../static/css/custom.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-custom">
+     
+    <div class="container mt-0">
+    
+      <div class="row text-white">
+        <div class="col-9">
+          <h1><a href="/" >Brain Tumour Segmentation</a></h1>
+
+        </div>
+        <!-- <div class="col-3">
+          <p class="float-right h5"><a href="/about" >About</a></p>
+        </div> -->
+      </div>  
+      
+      
+      <div class="form">
+
+        <form name="form_en" class="form-upload" method=post enctype=multipart/form-data>
+            <h1 class="h4 mb-3 font-style-normal font-weight-normal text-light">Please upload the MRI </h1>
+              <input type="file" name="picpath" id="picpath" style="display:none" onChange="document.form_en.path.value=this.value">
+              <input name="path" readonly>
+              <input type="button" value="Browse" onclick="document.form_en.picpath.click()">
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Segment the tumor</button>
+        </form>
+      </div>
+      <br>
+      {% if image_loc %}
+<!--          <h3 class="h3 mb-3 font-weight-normal text-light">Prediction: {{prediction}}</h3>-->
+          <img src="static/{{image_loc}}" class = "img" alt="" height="300">
+
+      {%endif%}
+
+      <br>
+
+      <div class="row text-white">
+        <p>This webapp is developed perform segmentation on brain MRI image by creating a segmentation mask filling any tumors in a FLAIR enhancement. The inferencing is based on a robostly trained U-Net model. </p>
+        <p>Feel free to contact me at xy2119@ic.ac.uk and my repository is https://github.com/xy2119/Brain_MRI_Image_Segmentation.  </p>
+      </div>
+     
+    </div>
+    
+  </body>
+</html>
