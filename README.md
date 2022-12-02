@@ -4,11 +4,11 @@ In the [2021 Data Science Institute Computer Vision Challenge](https://www.imper
 
 **To provide solutions for real-world applications**, I further developed it into a **Tumor Segmentation API** that can be accessed by doctors and clinicians for effective early screening and diagnosis.
 
-![image](./api.gif)
+![image](./images/api.gif)
 
 ## Dataset
 The dataset of brain MRIs from patients with glioma, examples of MRI images and masks are shown below. The dataset can be accessed on Google Drive URL [here](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
-![image](./image&mask.png)
+![image](./images/dataset.png)
 
 ## How to Start 
 ###  Training the Model
@@ -21,7 +21,8 @@ The dataset of brain MRIs from patients with glioma, examples of MRI images and 
 
 ###  API Development 
 
-3
+3. To clone this repository, open a terminal and navigate to the directory and write the command
+$git clone $
 4
 5
 
