@@ -88,7 +88,7 @@ The following open source packages are used in this project:
 ---
 6. Move the trained model to the current directory. 
    
-   You are welcomed to deploy your own model, or download mine :) [unet_vgg19.h5](https://drive.google.com/file/d/1TElZ-XPhn0Vc41nLx2NJMYaR8CSbhbB1/view?usp=sharing)  <-  testset dice score~81% trained from [here](./notebooks/TumorSeg_API_U_Net_VGG19.ipynb)
+   You are welcomed to deploy your own model, or download mine :) [unet_vgg19.h5](https://drive.google.com/file/d/1TElZ-XPhn0Vc41nLx2NJMYaR8CSbhbB1/view?usp=sharing)  <-  testset dice score ~ 81% trained from [here](./notebooks/TumorSeg_API_U_Net_VGG19.ipynb)
 ---
 8. Run `api.py` script and visit the web address to try out the segmenting functions!
     
@@ -97,7 +97,7 @@ The following open source packages are used in this project:
 ---
 
 ## Future Work
-Exploring more advanced segmentation models, including SEP and FCBFormer on the leaderboard of paperwithcode.
+Exploring more advanced segmentation models, including SEP and FCBFormer refer to the paperwithcode leaderboard.
 
 ## Contributing
 If you have any questions or advice towards this repository, feel free to contact me at xy2119@ic.ac.uk.
