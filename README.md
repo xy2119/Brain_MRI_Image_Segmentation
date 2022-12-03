@@ -48,7 +48,7 @@ The dataset of brain MRIs from patients with glioma, examples of MRI images and 
 ---
 
 ## Future Work
-Exploring more advanced segmentation models, SEP and FCBFormer ranked by paperwithcode leaderboard.
+Exploring more advanced segmentation models, including SEP and FCBFormer on the leaderboard of paperwithcode.
 
 ## Contributing
 If you have any questions or advice towards this repository, feel free to contact me at xy2119@ic.ac.uk.
