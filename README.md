@@ -64,31 +64,32 @@ The following open source packages are used in this project:
 ---
 1. (Optional) Create an account on [Weights & Biases](https://wandb.ai/site) platform (The training is tracked by `wandb`, this is a tool for tracking and visualising machine learning experiments in real time. If you have an account on Weights & Biases, get started by copying the profile API key and pasting it later in the notebook as requested) 
 ---
-2. Open [notebook](./notebooks/TumorSeg_Winner_U_Net_VGG16.ipynb) in Google Colab 
+2. Open [notebook](./notebooks/TumorSeg_Winner_U_Net_VGG16.ipynb) in Google Colab to train U-Net model
 ---
 ###  API Development 
 
 3. Clone this repository, open a terminal and navigate to the directory to write the command
-    code
-    .
-    git clone https://github.com/xy2119/Brain_MRI_Image_Segmentation.git 
-    cd Brain_MRI_Image_Segmentation
 
-
-4. Create and set up the environment `tumorseg`
-    conda create --name tumorseg --file requirements.txt
-
-5. Activate `tumorseg` environment 
->
-> conda activate tumorseg
-> 
+    `git clone https://github.com/xy2119/Brain_MRI_Image_Segmentation.git` 
+    
+    `cd Brain_MRI_Image_Segmentation`
 ---
-6. Move trained model to the current directory. You are welcomed to deploy your own model, or download mine :) [unet_vgg19.h5](https://drive.google.com/file/d/1TElZ-XPhn0Vc41nLx2NJMYaR8CSbhbB1/view?usp=sharing) <-- testset dice score~81% trained from [here](./notebooks/TumorSeg_API_U_Net_VGG19.ipynb)
+4. Create and set up the environment `tumorseg`
+
+   `conda create --name tumorseg --file requirements.txt`
+---
+5. Activate `tumorseg` environment 
+
+    `conda activate tumorseg`
+    
+---
+6. Move trained model to the current directory. 
+   
+   You are welcomed to deploy your own model, or download mine :) [unet_vgg19.h5](https://drive.google.com/file/d/1TElZ-XPhn0Vc41nLx2NJMYaR8CSbhbB1/view?usp=sharing)  <-  testset dice score~81% trained from [here](./notebooks/TumorSeg_API_U_Net_VGG19.ipynb)
 ---
 8. Run `api.py` script and visit the web address to try out the segmenting functions!
->
-> python api.py
-> 
+    `python api.py`
+
 ---
 
 ## Future Work
