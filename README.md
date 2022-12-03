@@ -15,7 +15,10 @@ In the [2021 Data Science Institute Computer Vision Challenge](https://www.imper
 The dataset of brain MRIs from patients with glioma, MRI images are on the left and on the right are corresponding masks which have been annotated by the doctor. The dataset can be downloaded from Google Drive [URL](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
 
 ![image](./images/dataset.png)
-<!-- PREREQUISITES -->
+
+
+
+## Prerequisites
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <br>
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try) <br>
