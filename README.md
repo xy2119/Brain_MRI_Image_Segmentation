@@ -72,29 +72,31 @@ The following are the major open source packages utilised in this project:
 ###  API Development 
 
 3. Clone this repository, open a terminal and navigate to the directory to write the command
-
-    `git clone https://github.com/xy2119/Brain_MRI_Image_Segmentation.git` 
+```
+    git clone https://github.com/xy2119/Brain_MRI_Image_Segmentation.git
     
-    `cd Brain_MRI_Image_Segmentation`
+    cd Brain_MRI_Image_Segmentation
+```
+    
 ---
 4. Create and set up the environment `tumorseg`
-
-   `conda create --name tumorseg --file requirements.txt`
+```
+   conda create --name tumorseg --file requirements.txt
+```
 ---
 5. Activate `tumorseg` environment 
-
-    `conda activate tumorseg`
-    
+```
+    conda activate tumorseg
+```
 ---
 6. Move the trained model to the current directory. 
    
    You are welcomed to deploy your own model, or download mine :) [unet_vgg19.h5](https://drive.google.com/file/d/1TElZ-XPhn0Vc41nLx2NJMYaR8CSbhbB1/view?usp=sharing)  <-  testset dice score ~ 81% trained from [here](./notebooks/TumorSeg_API_U_Net_VGG19.ipynb)
 ---
 8. Run `api.py` script and visit the web address to try out the segmenting functions!
-    
-    `python api.py`
-
----
+``` 
+    python api.py
+```
 
 ## Future Work
 Exploring more advanced segmentation models, including SEP and FCBFormer refer to the paperwithcode leaderboard.
