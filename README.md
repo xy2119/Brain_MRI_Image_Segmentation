@@ -12,7 +12,7 @@ In the [2021 Data Science Institute Computer Vision Challenge](https://www.imper
 ![image](./images/api.gif)
 
 ## Dataset
-The dataset of brain MRIs from patients with glioma, MRI images are on the left and on the right are corresponding masks which have been annotated by the doctor. The dataset can be downloaded from Google Drive [URL](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
+The datasets contain brain MRIs from glioma patients, including MRI images on the left and matching masks on the right that have been annotated by the doctor. The dataset is available for download via Google Drive [URL](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
 
 ![image](./images/dataset.png)
 
@@ -21,12 +21,12 @@ The dataset of brain MRIs from patients with glioma, MRI images are on the left 
 ## Prerequisites
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <br>
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try) <br>
 
 <!--This project is written in Python programming language. <br>-->
-The following open source packages are used in this project:
+The following are the major open source packages utilised in this project:
 * Numpy
 * Pandas
+* OpenCV
 * Matplotlib
 * Scikit-Learn
 * Pytorch
