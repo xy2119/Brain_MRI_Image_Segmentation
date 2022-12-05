@@ -102,6 +102,6 @@ The following are the major open source packages utilised in this project:
 Exploring more advanced segmentation models, including SEP and FCBFormer refer to the paperwithcode leaderboard.
 
 ## Contributing
-If you have any questions or advice towards this repository, feel free to contact me at xy2119@ic.ac.uk.
+If you have any questions or suggestions towards this repository, feel free to contact me at xy2119@ic.ac.uk.
 
 Any kind of enhancement or contribution is welcomed!
