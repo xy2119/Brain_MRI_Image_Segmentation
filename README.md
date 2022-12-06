@@ -12,7 +12,7 @@ In the [2021 Data Science Institute Computer Vision Challenge](https://www.imper
 ![image](./images/api.gif)
 
 ## Dataset
-The datasets contain brain MRIs from glioma patients, including MRI images on the left and matching masks on the right that have been annotated by the doctor. The dataset is available for download via Google Drive [URL](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
+The datasets contain brain MRIs from glioma patients, MRI images (left) and matching masks (right) that have been annotated by the doctor, can be downloaded via [URL](https://drive.google.com/drive/folders/1Y4MUrrfT-Xuos83nOnq8ZWTMZmp9qADH?usp=sharing).
 
 ![image](./images/dataset.png)
 
@@ -99,7 +99,7 @@ The following are the major open source packages utilised in this project:
 ```
 
 ## Future Work
-Exploring more advanced segmentation models, including SEP and FCBFormer refer to the paperwithcode leaderboard.
+Exploring more advanced segmentation models, like SEP and FCBFormer refer to the paperwithcode leaderboard.
 
 ## Contributing
 If you have any questions or suggestions towards this repository, feel free to contact me at xy2119@ic.ac.uk.
