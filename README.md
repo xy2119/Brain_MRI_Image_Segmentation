@@ -52,7 +52,7 @@ The following are the major open source packages utilised in this project:
     │   └── Pred.png 
     │
     ├── templates                       # tempaltes for webapp development
-    │   ├── index.html
+    │  
     │
     ├── api.py                          # API depolyment using Flask
     ├── test.py
